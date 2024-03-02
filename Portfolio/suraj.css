@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+.btn{
+    padding: 18px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.hr{
+    margin: 0vw 2vw;
+    font-size: x-large;
+}
+/* header */
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+.header-text a {
+    /* width: 50px;
+    height: 50px; */
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.header-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head .header-nav ul li{
+    list-style: none;
+}
+.head .header-nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1vh 2vw;
+}
+.head .header-nav ul li a:hover{
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+.hamburger{
+    display: none;
+}
+/*! Introduction section of header */
+.element{
+    background-color: white;
+}
+.article{
+    font-size: larger;
+    margin: 40px 30px;
+    word-spacing: 0.3rem;
+    font-size: xx-large;
+    padding: 10% 5%;
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* About-Me */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.about-img img {
+    /* width: 20vw; */
+    margin: 5vw;
+}
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content p{
+    font-size: 1.6 rem;
+    margin: 2rem 0 3rem;
+}
+
+/* services */
+#service{
+    padding: 10px;
+    padding: 20px 0px;
+}
+.h2{
+    margin: 15px;
+    font-size: 2rem;
+    text-align: center;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.services div{
+    height: 30vh;
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 20px 3px rgb(65, 60, 60), 2px 2px 5px 10px rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    margin: 25px 40px 30px 40px;
+    padding: 30px;
+}
+/* Project */
+.project{
+    padding-top: 20px;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.projects div{
+    height: 45vh;
+    max-width: fit-content;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 20px 3px rgb(65, 60, 60), 2px 2px 5px 10px rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    margin: 25px 40px 30px 40px;
+    padding: 30px;
+}
+
+ .projects div img{
+    height: 170px;
+    width: 280px;
+    object-fit: contain;
+}
+.projects div img:hover{
+     transform: scale(1.1);
+ }
+
+/* Contact */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text {
+    margin-left: 10vw;
+    font-size: x-large;
+}
+
+.contact-content{
+    margin: 0vh 5vw 0vh 15vw;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+
+/* .contact-phone,
+.contact-email {
+    /* border-right: 2px solid black; */
+    /* box-sizing: border-box; 
+} */
+
+.contact-content div {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 10px 10px 20px 3px rgb(65, 60, 60), 2px 2px 5px 10px rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 5vh 2vw;
+}
+
+.contact-content div p {
+    margin: 20px 0px 10px 0px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 0vw;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-icon a{
+    padding: 1.5vw 1vw;
+}
+#top-button{
+    position: fixed;
+    cursor: pointer;
+    bottom: 5px;
+    right: 20px;
+}

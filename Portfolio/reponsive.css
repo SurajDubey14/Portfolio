@@ -1,0 +1,113 @@
+@media screen and (max-width:1289px) {
+    .introduction {
+        margin-top: 10vh;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .introduction .btn{
+        margin-top: 5vh;
+    }
+    .about {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .about-content .h2,.about-content p {
+        text-align: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 27vh;
+    }
+    .contact , .contact-content{
+        margin: 2vh ;
+    }
+    .contact-content div {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+
+    /* footer */
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-icon a {
+        padding: 2vw 4vw;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .header {
+        padding: 4vh;
+    }
+    .header-text{
+        position: absolute;
+        left: 0vw;
+        padding-left: 20px;
+    }
+    .hamburger {
+        display: block;
+        padding-right: 20px;
+        position: absolute;
+        right: 0;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .mobilenav {
+        flex-direction: column;
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 53px;
+        background: linear-gradient(rgba(183, 183, 183, 0.9), rgba(167, 167, 167, 0.5));
+        ;
+    }
+
+    .header-nav .mobilenav li {
+        /* color: rgb(247, 243, 243); */
+        margin : 2vh;
+    }
+    .mobilenav a{
+        color: rgb(255, 255, 255);
+    }
+    .mobilenav li a:hover {
+        font-weight: bolder;
+
+    }
+    .contact-content div {
+        margin: 1vh  0;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 95%;
+        text-align: center;
+        border: none;
+    }
+    .footer  {
+        margin: 0;
+        padding: 2vh;
+    }
+}
+@media screen and (max-width:400px){
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    .footer  {
+        width: 95%;
+        margin: 0;
+        padding: 2vh;
+    }
+}
